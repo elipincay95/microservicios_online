@@ -1,0 +1,17 @@
+### Obtener todos los clientes
+GET http://localhost:3000/clientes
+
+### Crear nuevo cliente
+POST http://localhost:3000/clientes
+Content-Type: application/json
+
+{
+  "nombre": "Cliente Nuevo",
+  "email": "nuevo@test.com"
+}
+
+### Obtener todos los productos
+GET http://localhost:3000/productos
+
+### Obtener producto por ID
+GET http://localhost:3000/productos/507f1f77bcf86cd799439011
